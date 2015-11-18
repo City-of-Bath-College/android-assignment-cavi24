@@ -1,7 +1,13 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" tools:context=".MainActivity">
 
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E8EAF6">
+
+
+<<<<<<< HEAD
 
         <TextView
             android:id="@+id/lblQuestion"
@@ -88,4 +94,87 @@
 
 
 </RelativeLayout>
+=======
+    <TextView
+        android:id="@+id/lblQuestion"
+        android:text="Calvin Chitava"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:textSize="24sp"
+        android:gravity="end"
+        />
 
+    <ImageView
+        android:id="@+id/imgCalvin"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:src="@drawable/calvinn"/>
+
+
+
+    <TextView
+        android:id="@+id/txtemailaddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lblQuestion"
+        android:layout_alignParentRight="true"
+        android:layout_margin="30sp"
+        android:text="calvin.paperboy1@googlemail.com"
+        android:textSize="15sp"
+        android:padding="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/imgEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_margin="15sp"
+        android:layout_below="@+id/lblQuestion"
+        android:src="@drawable/email"/>
+
+
+    <ImageView
+        android:id="@+id/imgBirthday"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_margin="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/lblQuestion"
+        android:src="@drawable/birthday"/>
+
+
+    <TextView
+        android:id="@+id/textbirthday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtemailaddress"
+        android:layout_alignParentRight="true"
+        android:text="14-July-1979"
+        android:textSize="20sp"
+        android:padding="15dp"
+        />
+
+    <ImageView
+    android:id="@+id/imglocation"
+    android:layout_width="wrap_content"
+    android:layout_height="50dp"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@id/imgBirthday"
+    android:src="@drawable/location"/>
+
+>>>>>>> origin/master
+
+    <TextView
+    android:id="@+id/textlocation"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:text="Bath Spa"
+    android:textSize="30sp"
+    android:padding="20dp"
+    />
+
+
+</RelativeLayout>
